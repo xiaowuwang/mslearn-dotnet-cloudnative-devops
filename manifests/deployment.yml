@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: xiaowuwangmslearndotnetcloudnativedevops 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: xiaowuwangmslearndotnetcloudnativedevops
+  template:
+    metadata:
+      labels:
+        app: xiaowuwangmslearndotnetcloudnativedevops 
+    spec:
+      containers:
+        - name: xiaowuwangmslearndotnetcloudnativedevops 
+          image: acseshop112764615.azurecr.io/xiaowuwangmslearndotnetcloudnativedevops
+          ports:
+          - containerPort: 80
