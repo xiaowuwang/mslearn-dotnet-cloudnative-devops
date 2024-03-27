@@ -7,7 +7,7 @@ on:
 
 env:
   # Local environment variables used later in the workflow
-  AZURE_CONTAINER_REGISTRY: 'acseshop1829782526'
+  AZURE_CONTAINER_REGISTRY: 'acseshop875265'
   CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'rg-eshop'
   CLUSTER_NAME: 'aks-eshop'
